@@ -137,10 +137,47 @@
 
                                                  #### list comprehension ###
 
-# print ([i for i in range (100) if i % 3 == 0])
+# ls = []
+# for i in range(100):
+#        if i%3==0:
+#               ls.append(i)
+# print (ls)
 
-a = [1,2,3,4,5]
-b = ['a']
+# print ([i for i in range (100) if i % 3 == 0])    ## above lines of code can be written in one line will give the same output ###
 
-a.extend(b)
-print (a)
+# ls = [i for i in range(100) if i%3==0]
+# print (ls)                                        ## this code is also same ##
+
+# dict1 =  {i:f"item {i}" for i in range(1000)}
+# dict1 =  {i:f"atif{i}" for i in range(100) if i % 10==0}
+# dict2 =  {value:key for key,value in dict1.items()}
+# print (dict2)
+
+# import os
+
+# x = (os.listdir(r'D:\Python\2020\hackerrank'))
+
+# print (x)
+
+                                                        ### hackerrank challenge ###
+
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# n = int(input())
+
+# list_11 = [[x,y,z] for x in list(range(n)) for y in list(range(n)) for z in list(range(n))]
+
+# x, y, z, n = int(input()), int(input()), int(input()), int(input())
+# print ([[a,b,c] for a in range(0,x+1) for b in range(0,y+1) for c in range(0,z+1) if a + b + c != n ]) # correct code#
+
+# print([[x, y] for x in [1, 2, 3] for y in [4, 5, 6]])
+
+# print (list_11)
+
+                                                        
+                                                        ### hackerrank challenge ###
+
+n = int(input())
+arr = (int, input().split())
+print (arr)
