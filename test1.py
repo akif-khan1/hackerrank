@@ -176,8 +176,49 @@
 # print (list_11)
 
                                                         
-                                                        ### hackerrank challenge ###
+                                                        ### hackerrank challenge runner up finder ###
 
-n = int(input())
-arr = (int, input().split())
-print (arr)
+# i = int(input())
+# lis = list(map(int,input().split()))[:i]
+# z = max(lis)
+# while max(lis) == z:
+#     lis.remove(max(lis))
+
+# print (max(lis))
+
+# print (lis)
+
+# a = 'my name is khan'.split()
+# a = '    my name is khan    '.split()
+# print (a)
+
+# n = int(input())
+
+# if n % 2 ==0 and 2<= n <=5:
+#     print ('Not Weird')
+# elif n % 2==0 and 6<= n<= 20:
+#     print ('Weird')
+# elif n%2==0 and n > 20:
+#     print ('Not Weird')
+# else:
+#     print ('Weird')
+
+                                                    ### Nested List ###
+
+# my_list= [['ibrahim','atif'] , ['fehan','asim'] , ['jannat','aisha']]
+# print (my_list[0][0])
+
+# for x in my_list:
+#     for y in x:
+#         print (y)
+
+# my_list = []
+
+# at = 0
+
+# while at<10:
+#     x=input('enter name! ')
+#     my_list.append(x)
+#     at=at+1
+
+# print (my_list)
